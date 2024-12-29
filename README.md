@@ -62,10 +62,10 @@ The function `tune_hyper_parameter` in `A1_submission.py` handles the hyperparam
 ## Sample Dataset Images
 
 ### MNIST
-![MNIST Samples](MNIST\ Sample\ Digits.png)
+![MNIST Samples](ml-models-mnist-cifar10/MNIST\ Sample\ Digits.png)
 
 ### CIFAR-10
-![CIFAR-10 Samples](CIFAR\ 10\ Image\ Samples.png)
+![CIFAR-10 Samples](ml-models-mnist-cifar10/CIFAR\ 10\ Image\ Samples.png)
 
 ## Requirements
 
