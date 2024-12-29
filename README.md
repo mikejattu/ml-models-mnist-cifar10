@@ -17,12 +17,12 @@ This repository contains implementations of machine learning models for the MNIS
 ## Logistic Regression for MNIST
 
 ### Task:
-Implement a logistic regression model using PyTorch and train it on the MNIST dataset. The dataset is split such that the last 12,000 samples of the training set are used as a validation set. The model is trained using stochastic gradient descent (SGD) and cross-entropy loss.
+Implemented a logistic regression model using PyTorch and train it on the MNIST dataset. The dataset is split such that the last 12,000 samples of the training set are used as a validation set. The model is trained using stochastic gradient descent (SGD) and cross-entropy loss.
 
 ### Features:
-- Use SGD optimizer.
-- Implement L1 or L2 regularization for model improvement.
-- Evaluate the model on the validation set every few epochs to prevent overfitting.
+- Used SGD optimizer.
+- Implemented L1 or L2 regularization for model improvement.
+- Evaluated the model on the validation set every few epochs to prevent overfitting.
 
 ### Performance:
 Achieving an accuracy between 92-94% on both the test and validation sets is expected with proper model tuning.
@@ -32,7 +32,7 @@ You can find the implementation in the `logistic_regression` function in `A1_sub
 ## Fully-connected Neural Network for CIFAR-10
 
 ### Task:
-Implement a fully-connected neural network for CIFAR-10 classification. The network uses cross-entropy loss and is trained on the CIFAR-10 dataset, consisting of RGB images of size 32x32x3.
+Implemented a fully-connected neural network for CIFAR-10 classification. The network uses cross-entropy loss and is trained on the CIFAR-10 dataset, consisting of RGB images of size 32x32x3.
 
 ### Network Architecture:
 - **Input Layer**: Flattened 32x32x3 images.
@@ -47,14 +47,25 @@ The forward pass and loss computation are implemented in the `FNN` class in `A1_
 ## Hyperparameter Search
 
 ### Task:
-Perform a hyperparameter search for the Logistic Regression and Fully-connected Neural Network models using the Adam optimizer.
+Performed a hyperparameter search for the Logistic Regression and Fully-connected Neural Network models using the Adam optimizer.
 
 ### Method:
-- Conduct grid search or random search for hyperparameter optimization.
-- Use the validation accuracy to evaluate the best hyperparameter configuration.
-- Test set is not used during the hyperparameter search.
+- Conducted grid search for hyperparameter optimization.
+- Useed the validation accuracy to evaluate the best hyperparameter configuration.
 
 The function `tune_hyper_parameter` in `A1_submission.py` handles the hyperparameter tuning.
+
+## Training Curves
+
+![Training and Validation Accuracy](assets/training_curves.png)
+
+## Sample Dataset Images
+
+### MNIST
+![MNIST Samples](assets/mnist_samples.png)
+
+### CIFAR-10
+![CIFAR-10 Samples](assets/cifar10_samples.png)
 
 ## Requirements
 
