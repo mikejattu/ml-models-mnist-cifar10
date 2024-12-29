@@ -55,9 +55,6 @@ Performed a hyperparameter search for the Logistic Regression and Fully-connecte
 
 The function `tune_hyper_parameter` in `A1_submission.py` handles the hyperparameter tuning.
 
-## Training Curves
-
-![Training and Validation Accuracy](assets/training_curves.png)
 
 ## Sample Dataset Images
 
