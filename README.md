@@ -1,6 +1,6 @@
 # Machine Learning Models for MNIST and CIFAR-10
 
-This repository contains implementations of machine learning models for the MNIST and CIFAR-10 datasets using PyTorch. The models are:
+This repository contains implementations of machine learning models for the MNIST and CIFAR-10 datasets using PyTorch. This was written for my CMPUT 328 Assignment. The models are:
 
 1. **Logistic Regression for MNIST**
 2. **Fully-connected Neural Network (FNN) for CIFAR-10**
